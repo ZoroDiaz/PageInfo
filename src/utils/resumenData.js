@@ -3,21 +3,21 @@ import LinkedinIcon from "@material-ui/icons/LinkedIn";
 import GitLap from "@material-ui/icons/GitHub";
 
 export default {
-    name: "Carlos Desarrollar",
-    title: "Full stack developer",
+    Name: "Carlos Desarrollar",
+    Title: "Full stack developer",
 
-    birthday: "25-08-1998",
-    email:"diaz123451@gmail.com",
-    address: "Leon Gto",
-    phone:"4777356909",
+    Birthday: "25-08-1998",
+    Email:"diaz123451@gmail.com",
+    Address: "Leon Gto",
+    Phone:"4777356909",
 
     socials:{
-        facebook: {
+        Facebook: {
             link:"https://www.facebook.com/luis.c.arredondodiaz/",
             text: "Carlos Diaz",
             icon: <FacebookIcon/>
         },
-        linkedin: {
+        Linkedin: {
             link:"https://www.facebook.com/luis.c.arredondodiaz/",
             text: "Carlos Diaz",
             icon: <LinkedinIcon/>

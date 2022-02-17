@@ -46,9 +46,9 @@ const Profile = () => {
 
         <div className='profile_information'>
             <CustomTimeline icon={<PersonOutlineOutlinedIcon/>}>
-              <CustomTimelineItem title='name' text={resumenData.name}/>
-              <CustomTimelineItem title='Title' text={resumenData.title}/>
-              <CustomTimelineItem title='Email' text={resumenData.email}/>
+              <CustomTimelineItem title='Name' text={resumenData.Name}/>
+              <CustomTimelineItem title='Title' text={resumenData.Title}/>
+              <CustomTimelineItem title='Email' text={resumenData.Email}/>
 
               {Object.keys(resumenData.socials).map((key) => (
                 <CustomTimelineItem title={key} text = {resumenData.socials[key].text} link={resumenData.socials[key].link}/>

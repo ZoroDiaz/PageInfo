@@ -8,7 +8,7 @@ import { TimelineContent } from '@mui/lab';
 import { TimelineItem } from '@mui/lab';
 import CustomButton from '../Button/CustomButton';
 import GetAppIcon from '@material-ui/icons/GetApp';
-
+import images from '../../assets/images/assets';
 
 
 const CustomTimelineItem = ({ title , text, link}) => (
@@ -40,7 +40,7 @@ const Profile = () => {
         </div>
 
         <figure className="profile_image">
-            <img src={require('../../assets/images/ImgProfilev3.png')} alt=''/>
+            <img src={images.bgFondo} alt=''/>
         </figure>
 
 

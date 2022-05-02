@@ -19,14 +19,16 @@ function App() {
         <Grid item xs>
             <Router>
             <Header/>
-              <Switch>
-                <Route path='/portafolio'>
-                  <Portafolio/>
-                </Route>
-                <Route path='/'>
-                  <Resumen/>
-                </Route>
-              </Switch>
+              <div className='main-content container_shadow'>
+                <Switch>
+                  <Route path='/portafolio'>
+                    <Portafolio/>
+                  </Route>
+                  <Route path='/'>
+                    <Resumen/>
+                  </Route>
+                </Switch>
+              </div>
             </Router>
           <Footer/>
         </Grid>

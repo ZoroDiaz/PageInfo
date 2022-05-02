@@ -8,7 +8,7 @@ import { TimelineContent } from '@mui/lab';
 import { TimelineItem } from '@mui/lab';
 import CustomButton from '../Button/CustomButton';
 import GetAppIcon from '@material-ui/icons/GetApp';
-import images from '../../assets/assets';
+import images from '../../assets/images';
 
 
 const CustomTimelineItem = ({ title , text, link}) => (

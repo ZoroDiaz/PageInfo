@@ -1,5 +1,5 @@
 const CopyPlugin = require('copy-webpack-plugin');
-const Assets = require('./src/assets/assets');
+const Assets = require('./src/assets/images');
 const path = require('path');
 module.exports = {
     entry:'./src/index.js',

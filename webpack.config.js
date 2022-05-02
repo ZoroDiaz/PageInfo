@@ -1,8 +1,8 @@
 const CopyPlugin = require('copy-webpack-plugin');
-const Assets = require('./assets');
+const Assets = require('./src/assets/assets');
 const path = require('path');
 module.exports = {
-    entry:'./src/app.js',
+    entry:'./src/index.js',
     output:{
         path:__dirname + '/dist',
         filename:'bundle.js'

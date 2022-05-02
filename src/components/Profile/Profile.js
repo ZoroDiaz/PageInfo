@@ -40,14 +40,14 @@ const Profile = () => {
         </div>
 
         <figure className="profile_image">
-            <img src={require('../../assets/images/ImgProfile.jpg')} alt=''/>
+            <img src={require('../../assets/images/ImgProfilev3.png')} alt=''/>
         </figure>
 
 
         <div className='profile_information'>
             <CustomTimeline icon={<PersonOutlineOutlinedIcon/>}>
-              <CustomTimelineItem title='Name' text={resumenData.Name}/>
-              <CustomTimelineItem title='Title' text={resumenData.Title}/>
+              <CustomTimelineItem title='Nombre' text={resumenData.Name}/>
+              <CustomTimelineItem title='Titulo' text={resumenData.Title}/>
               <CustomTimelineItem title='Email' text={resumenData.Email}/>
 
               {Object.keys(resumenData.socials).map((key) => (

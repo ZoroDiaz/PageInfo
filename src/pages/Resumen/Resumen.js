@@ -16,7 +16,7 @@ const Resumen = () => {
       <Grid container className='section pb_45 pt_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
-          <h6 className='section_title_text'>About Me</h6>
+          <h6 className='section_title_text'>Sobre me</h6>
         </Grid>
         <Grid item xs={12}>
           <Typography variant='body2' className='aboutme_text'>{resumenData.about}</Typography>
@@ -27,14 +27,14 @@ const Resumen = () => {
       <Grid container className='section pb_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
-          <h6 className='section_title_text'>Resume</h6>
+          <h6 className='section_title_text'>Resumen</h6>
         </Grid>
 
         <Grid item xs={12}>
           <Grid container className='resume_timeline'>
             {/* experiencia */}
             <Grid item sm={12} md={6}>
-              <CustomTimeline title='Work Experierncie' icon={<WorkIcon />}>
+              <CustomTimeline title='Experiencia de trabajo' icon={<WorkIcon />}>
                 {resumenData.experences.map((experences) => (
                   <TimelineItem>
                     <CustomTimelineSeparator />
@@ -50,7 +50,7 @@ const Resumen = () => {
 
             {/* education */}
             <Grid item sm={12} md={6}>
-              <CustomTimeline title='Education History' icon={<SchoolIcon />}>
+              <CustomTimeline title='Historial educativo' icon={<SchoolIcon />}>
                 {resumenData.education.map((education) => (
                   <TimelineItem>
                     <CustomTimelineSeparator />
@@ -77,7 +77,7 @@ const Resumen = () => {
       <Grid container className='section pb_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
-          <h6 className='section_title_text'>My Services</h6>
+          <h6 className='section_title_text'>Mi Servicios</h6>
         </Grid>
 
         <Grid Item xs={12}>
@@ -138,19 +138,19 @@ const Resumen = () => {
                 <Grid container >
                    <Grid item className='section_title mb_30'>
                      <span></span>
-                     <h6 className='section_title_text'>Contact Form</h6>
+                     <h6 className='section_title_text'>Formulario de Contacto</h6>
                    </Grid>
 
                    <Grid item xs={12}>
                      <Grid container spacing={3}>
                        <Grid item xs={12} sm={6}>
-                         <TextField fullwidth name="name" label="Name" />
+                         <TextField fullwidth name="name" label="Nombre" />
                        </Grid>
                        <Grid item xs={12} sm={6}>
                          <TextField fullwidth name="email" label="E-mail" />
                        </Grid>
                        <Grid item xs={12}>
-                         <TextField fullwidth name="message" label="Message" multiline rows={4} />
+                         <TextField fullwidth name="message" label="Mensaje" multiline rows={4} />
                        </Grid>
                        <Grid item xs={12}>
                          <CustomButton text='Submit'/>
@@ -164,18 +164,18 @@ const Resumen = () => {
               <Grid container>
                 <Grid item className='section_title mb_30'>
                   <span></span>
-                  <h6 className='section_title_text'>Contact Information</h6>
+                  <h6 className='section_title_text'>Información de contacto</h6>
                 </Grid>
                 <Grid item xs={12}>
                   <Grid container>
                     <Grid item xs={12}>
                       <Typography className='contactInfo_item'>
-                        <span>Address: </span>{resumenData.Address}
+                        <span>Dirección: </span>{resumenData.Address}
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
                       <Typography className='contactInfo_item'>
-                        <span>Phone: </span>{resumenData.Phone}
+                        <span>Telefono: </span>{resumenData.Phone}
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
